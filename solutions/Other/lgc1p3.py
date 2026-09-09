@@ -1,0 +1,1 @@
+print(str(-len(input())%8>3).lower())

@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+char c; int ans = 0;
+
+int main() {
+    ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+    for (int i = 0; i < 5; i++) {
+        cin >> c;
+        if (c == 'P') ans++;
+    }
+    cout << ans << '\n';
+}
